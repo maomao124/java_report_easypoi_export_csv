@@ -1,0 +1,64 @@
+2023-06-07 14:38:27.256  INFO 26972 --- [main] .j.JavaReportEasypoiExportCsvApplication : Starting JavaReportEasypoiExportCsvApplication using Java 1.8.0_332 on mao with PID 26972 (D:\程序\大四下期\java_report_easypoi_export_csv\target\classes started by mao in D:\程序\大四下期\java_report_easypoi_export_csv)
+2023-06-07 14:38:27.257 DEBUG 26972 --- [main] .j.JavaReportEasypoiExportCsvApplication : Running with Spring Boot v2.7.1, Spring v5.3.21
+2023-06-07 14:38:27.257  INFO 26972 --- [main] .j.JavaReportEasypoiExportCsvApplication : No active profile set, falling back to 1 default profile: "default"
+2023-06-07 14:38:27.580  INFO 26972 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-07 14:38:27.626  INFO 26972 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-06-07 14:38:28.085  INFO 26972 --- [main] .j.JavaReportEasypoiExportCsvApplication : Started JavaReportEasypoiExportCsvApplication in 1.001 seconds (JVM running for 1.481)
+2023-06-07 14:38:28.091  INFO 26972 --- [main] m.j.service.impl.UserServiceImpl         : 开始导出csv文件
+2023-06-07 14:38:28.299 DEBUG 26972 --- [main] m.j.m.UserMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) AS total FROM user
+2023-06-07 14:38:28.307 DEBUG 26972 --- [main] m.j.m.UserMapper.selectPage_mpCount      : ==> Parameters: 
+2023-06-07 14:38:30.121 DEBUG 26972 --- [main] m.j.m.UserMapper.selectPage_mpCount      : <==      Total: 1
+2023-06-07 14:38:30.123 DEBUG 26972 --- [main] m.j.mapper.UserMapper.selectPage         : ==>  Preparing: SELECT id,user_name,phone,hire_date,address FROM user LIMIT ?
+2023-06-07 14:38:30.123 DEBUG 26972 --- [main] m.j.mapper.UserMapper.selectPage         : ==> Parameters: 10000(Long)
+2023-06-07 14:38:30.179 DEBUG 26972 --- [main] m.j.mapper.UserMapper.selectPage         : <==      Total: 10000
+2023-06-07 14:38:30.196  INFO 26972 --- [main] m.j.service.impl.UserServiceImpl         : csv文件导出完成
+2023-06-07 14:38:30.198  INFO 26972 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-06-07 14:38:30.200  INFO 26972 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-06-07 14:40:37.367  INFO 6476 --- [main] .j.JavaReportEasypoiExportCsvApplication : Starting JavaReportEasypoiExportCsvApplication using Java 1.8.0_332 on mao with PID 6476 (D:\程序\大四下期\java_report_easypoi_export_csv\target\classes started by mao in D:\程序\大四下期\java_report_easypoi_export_csv)
+2023-06-07 14:40:37.368 DEBUG 6476 --- [main] .j.JavaReportEasypoiExportCsvApplication : Running with Spring Boot v2.7.1, Spring v5.3.21
+2023-06-07 14:40:37.368  INFO 6476 --- [main] .j.JavaReportEasypoiExportCsvApplication : No active profile set, falling back to 1 default profile: "default"
+2023-06-07 14:40:37.818  INFO 6476 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-07 14:40:37.873  INFO 6476 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-06-07 14:40:38.392  INFO 6476 --- [main] .j.JavaReportEasypoiExportCsvApplication : Started JavaReportEasypoiExportCsvApplication in 1.207 seconds (JVM running for 1.672)
+2023-06-07 14:40:38.402  INFO 6476 --- [main] m.j.service.impl.UserServiceImpl         : 开始导出csv文件
+2023-06-07 14:40:38.672 DEBUG 6476 --- [main] m.j.m.UserMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) AS total FROM user
+2023-06-07 14:40:38.687 DEBUG 6476 --- [main] m.j.m.UserMapper.selectPage_mpCount      : ==> Parameters: 
+2023-06-07 14:40:40.453 DEBUG 6476 --- [main] m.j.m.UserMapper.selectPage_mpCount      : <==      Total: 1
+2023-06-07 14:40:40.455 DEBUG 6476 --- [main] m.j.mapper.UserMapper.selectPage         : ==>  Preparing: SELECT id,user_name,phone,hire_date,address FROM user LIMIT ?
+2023-06-07 14:40:40.455 DEBUG 6476 --- [main] m.j.mapper.UserMapper.selectPage         : ==> Parameters: 10000(Long)
+2023-06-07 14:40:40.527 DEBUG 6476 --- [main] m.j.mapper.UserMapper.selectPage         : <==      Total: 10000
+2023-06-07 14:40:40.594  INFO 6476 --- [main] m.j.service.impl.UserServiceImpl         : csv文件导出完成
+2023-06-07 14:40:40.596  INFO 6476 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-06-07 14:40:40.598  INFO 6476 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-06-07 14:41:16.149  INFO 36208 --- [main] .j.JavaReportEasypoiExportCsvApplication : Starting JavaReportEasypoiExportCsvApplication using Java 1.8.0_332 on mao with PID 36208 (D:\程序\大四下期\java_report_easypoi_export_csv\target\classes started by mao in D:\程序\大四下期\java_report_easypoi_export_csv)
+2023-06-07 14:41:16.150 DEBUG 36208 --- [main] .j.JavaReportEasypoiExportCsvApplication : Running with Spring Boot v2.7.1, Spring v5.3.21
+2023-06-07 14:41:16.151  INFO 36208 --- [main] .j.JavaReportEasypoiExportCsvApplication : No active profile set, falling back to 1 default profile: "default"
+2023-06-07 14:41:16.481  INFO 36208 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-07 14:41:16.544  INFO 36208 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-06-07 14:41:17.082  INFO 36208 --- [main] .j.JavaReportEasypoiExportCsvApplication : Started JavaReportEasypoiExportCsvApplication in 1.108 seconds (JVM running for 1.578)
+2023-06-07 14:41:17.094  INFO 36208 --- [main] m.j.service.impl.UserServiceImpl         : 开始导出csv文件
+2023-06-07 14:41:17.374 DEBUG 36208 --- [main] m.j.m.UserMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) AS total FROM user
+2023-06-07 14:41:17.387 DEBUG 36208 --- [main] m.j.m.UserMapper.selectPage_mpCount      : ==> Parameters: 
+2023-06-07 14:41:18.966 DEBUG 36208 --- [main] m.j.m.UserMapper.selectPage_mpCount      : <==      Total: 1
+2023-06-07 14:41:18.971 DEBUG 36208 --- [main] m.j.mapper.UserMapper.selectPage         : ==>  Preparing: SELECT id,user_name,phone,hire_date,address FROM user LIMIT ?
+2023-06-07 14:41:18.971 DEBUG 36208 --- [main] m.j.mapper.UserMapper.selectPage         : ==> Parameters: 10000(Long)
+2023-06-07 14:41:19.037 DEBUG 36208 --- [main] m.j.mapper.UserMapper.selectPage         : <==      Total: 10000
+2023-06-07 14:41:19.061  INFO 36208 --- [main] m.j.service.impl.UserServiceImpl         : csv文件导出完成
+2023-06-07 14:41:19.063  INFO 36208 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-06-07 14:41:19.064  INFO 36208 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-06-07 14:42:01.557  INFO 2576 --- [main] .j.JavaReportEasypoiExportCsvApplication : Starting JavaReportEasypoiExportCsvApplication using Java 1.8.0_332 on mao with PID 2576 (D:\程序\大四下期\java_report_easypoi_export_csv\target\classes started by mao in D:\程序\大四下期\java_report_easypoi_export_csv)
+2023-06-07 14:42:01.558 DEBUG 2576 --- [main] .j.JavaReportEasypoiExportCsvApplication : Running with Spring Boot v2.7.1, Spring v5.3.21
+2023-06-07 14:42:01.558  INFO 2576 --- [main] .j.JavaReportEasypoiExportCsvApplication : No active profile set, falling back to 1 default profile: "default"
+2023-06-07 14:42:01.897  INFO 2576 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-07 14:42:01.954  INFO 2576 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-06-07 14:42:02.475  INFO 2576 --- [main] .j.JavaReportEasypoiExportCsvApplication : Started JavaReportEasypoiExportCsvApplication in 1.092 seconds (JVM running for 1.551)
+2023-06-07 14:42:02.484  INFO 2576 --- [main] m.j.service.impl.UserServiceImpl         : 开始导出csv文件
+2023-06-07 14:42:02.772 DEBUG 2576 --- [main] m.j.m.UserMapper.selectPage_mpCount      : ==>  Preparing: SELECT COUNT(*) AS total FROM user
+2023-06-07 14:42:02.789 DEBUG 2576 --- [main] m.j.m.UserMapper.selectPage_mpCount      : ==> Parameters: 
+2023-06-07 14:42:04.639 DEBUG 2576 --- [main] m.j.m.UserMapper.selectPage_mpCount      : <==      Total: 1
+2023-06-07 14:42:04.648 DEBUG 2576 --- [main] m.j.mapper.UserMapper.selectPage         : ==>  Preparing: SELECT id,user_name,phone,hire_date,address FROM user LIMIT ?
+2023-06-07 14:42:04.648 DEBUG 2576 --- [main] m.j.mapper.UserMapper.selectPage         : ==> Parameters: 10000(Long)
+2023-06-07 14:42:04.706 DEBUG 2576 --- [main] m.j.mapper.UserMapper.selectPage         : <==      Total: 10000
+2023-06-07 14:42:04.774  INFO 2576 --- [main] m.j.service.impl.UserServiceImpl         : csv文件导出完成
+2023-06-07 14:42:04.777  INFO 2576 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-06-07 14:42:04.778  INFO 2576 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
