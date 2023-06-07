@@ -62,3 +62,11 @@
 2023-06-07 14:42:04.774  INFO 2576 --- [main] m.j.service.impl.UserServiceImpl         : csv文件导出完成
 2023-06-07 14:42:04.777  INFO 2576 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
 2023-06-07 14:42:04.778  INFO 2576 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-06-07 14:44:08.149  INFO 24476 --- [main] vaReportEasypoiExportCsvApplicationTests : Starting JavaReportEasypoiExportCsvApplicationTests using Java 1.8.0_332 on mao with PID 24476 (started by mao in D:\程序\大四下期\java_report_easypoi_export_csv)
+2023-06-07 14:44:08.149 DEBUG 24476 --- [main] vaReportEasypoiExportCsvApplicationTests : Running with Spring Boot v2.7.1, Spring v5.3.21
+2023-06-07 14:44:08.150  INFO 24476 --- [main] vaReportEasypoiExportCsvApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-06-07 14:44:08.761  INFO 24476 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-07 14:44:08.943  INFO 24476 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-06-07 14:44:09.587  INFO 24476 --- [main] vaReportEasypoiExportCsvApplicationTests : Started JavaReportEasypoiExportCsvApplicationTests in 1.624 seconds (JVM running for 2.492)
+2023-06-07 14:44:09.744  INFO 24476 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-06-07 14:44:09.744  INFO 24476 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
